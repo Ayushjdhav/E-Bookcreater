@@ -16,7 +16,7 @@ const chapterSchema = new mongoose.Schema({
 });
 
 const bookSchema = new mongoose.Schema({
-    userId: { // Fixed semicolon to colon
+    user: { // Fixed semicolon to colon
         type: mongoose.Schema.Types.ObjectId,
         required: true, // Fixed spelling from "requied"
         ref: "User",
